@@ -4,7 +4,7 @@ Typescript Express Starter
 [![devDependency Status](https://david-dm.org/timreynolds/typescript-express-starter/dev-status.svg)](https://david-dm.org/timreynolds/typescript-express-starter#info=devDependencies)
 [![Build Status](https://travis-ci.org/timReynolds/typescript-express-starter.svg?branch=master)](https://travis-ci.org/timReynolds/typescript-express-starter)
 [![Maintainability](https://api.codeclimate.com/v1/badges/99ef9fd41a78d421248e/maintainability)](https://codeclimate.com/github/timReynolds/typescript-express-starter/maintainability)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/99ef9fd41a78d421248e/test_coverage)](https://codeclimate.com/github/timReynolds/typescript-express-starter/test_coverage)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/99ef9fd41a78d421248e/test_coverage)](https://codeclimate.com/github/timReynolds/typescript-express-starter/test_coverage) [![Greenkeeper badge](https://badges.greenkeeper.io/timReynolds/typescript-express-starter.svg)](https://greenkeeper.io/)
 
 Extracted basic TypeScript Express server setup I use for most server projects. 
 
