@@ -1,6 +1,6 @@
 import * as dotenv from "dotenv";
-
 import * as express from "express";
+import * as helmet from "helmet";
 import * as HttpStatus from "http-status-codes";
 import * as knexBuilder from "knex";
 
@@ -43,6 +43,7 @@ const statusCheck = async (req: express.Request, res: express.Response) => {
   }
 }
 
+app.use(helmet())
 app.get("/status/health", statusCheck);
 app.get("/status/ready", statusCheck);
 
