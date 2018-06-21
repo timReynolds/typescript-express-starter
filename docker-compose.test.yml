@@ -2,7 +2,7 @@ version: '2'
 
 services:
   test:
-    image: node:8-alpine
+    image: node:8-alpine@sha256:c9f2470464363addb0be6a61678f44854e73eee974bbc792a71d4d2b7ffd5edd
     depends_on:
       - db
     volumes:  
@@ -16,7 +16,7 @@ services:
       PG_CONNECTION_STRING: postgres://postgres:postgres@db/postgres 
   
   db:
-    image: postgres:9.6
+    image: postgres:9.6@sha256:111954515f3781cf0efb3cdbb0120f0d5bbfd3244b80104b3e901e2289ae5c7b
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgres
