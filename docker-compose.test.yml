@@ -16,7 +16,7 @@ services:
       PG_CONNECTION_STRING: postgres://postgres:postgres@db/postgres 
   
   db:
-    image: postgres:9.6@sha256:111954515f3781cf0efb3cdbb0120f0d5bbfd3244b80104b3e901e2289ae5c7b
+    image: postgres:9.6@sha256:e7684004cf3f064a56b7a2bb35d858ae3226ff12ecf9385828ea4128bb065a98
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgres
