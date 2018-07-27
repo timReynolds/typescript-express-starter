@@ -2,7 +2,7 @@ version: '2'
 
 services:
   db:
-    image: postgres:9.6@sha256:111954515f3781cf0efb3cdbb0120f0d5bbfd3244b80104b3e901e2289ae5c7b
+    image: postgres:9.6@sha256:9d8deca17591f6fef6b2c338fee1a5d7c96da99f18bd51149440099239085800
     ports:
       - 5432:5432
     volumes:
