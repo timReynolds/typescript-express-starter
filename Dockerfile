@@ -1,4 +1,4 @@
-FROM node:8-alpine@sha256:c9f2470464363addb0be6a61678f44854e73eee974bbc792a71d4d2b7ffd5edd as builder
+FROM node:8-alpine@sha256:d3ecde67a30db99d10a32173cc2fee8766bb42430feb2f819179c8dcf494dac1 as builder
 
 COPY ./package.json /build/package.json
 COPY ./package-lock.json /build/package-lock.json
@@ -24,7 +24,7 @@ WORKDIR /build
 
 RUN npm run build
 
-FROM node:8-alpine@sha256:c9f2470464363addb0be6a61678f44854e73eee974bbc792a71d4d2b7ffd5edd
+FROM node:8-alpine@sha256:d3ecde67a30db99d10a32173cc2fee8766bb42430feb2f819179c8dcf494dac1
 
 # Take only the production node modules
 COPY --from=builder /build/prod_node_modules ./node_modules
