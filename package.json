@@ -34,7 +34,7 @@
     "@types/helmet": "0.0.41",
     "@types/jest": "23.3.2",
     "@types/knex": "0.14.24",
-    "@types/node": "10.10.0",
+    "@types/node": "10.10.1",
     "@types/superagent": "3.8.4",
     "husky": "0.14.3",
     "jest": "23.6.0",
