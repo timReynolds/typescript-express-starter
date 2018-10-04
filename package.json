@@ -33,7 +33,7 @@
     "@types/express": "4.16.0",
     "@types/helmet": "0.0.42",
     "@types/jest": "23.3.3",
-    "@types/knex": "0.14.25",
+    "@types/knex": "0.14.26",
     "@types/node": "10.11.4",
     "@types/superagent": "3.8.4",
     "husky": "1.1.0",
