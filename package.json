@@ -46,7 +46,7 @@
     "ts-jest": "23.1.4",
     "ts-node-dev": "1.0.0-pre.30",
     "tslint": "5.11.0",
-    "tslint-config-prettier": "1.15.0",
+    "tslint-config-prettier": "1.16.0",
     "typescript": "3.1.6"
   },
   "lint-staged": {
