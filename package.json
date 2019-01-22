@@ -42,7 +42,7 @@
     "prettier": "1.16.0",
     "rimraf": "2.6.3",
     "superagent": "4.1.0",
-    "supertest": "3.4.1",
+    "supertest": "3.4.2",
     "ts-jest": "23.1.4",
     "ts-node-dev": "1.0.0-pre.32",
     "tslint": "5.12.1",
