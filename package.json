@@ -29,7 +29,7 @@
   "author": "Tim Reynolds",
   "license": "MIT",
   "devDependencies": {
-    "@types/dotenv": "6.1.0",
+    "@types/dotenv": "6.1.1",
     "@types/express": "4.16.1",
     "@types/helmet": "0.0.42",
     "@types/jest": "24.0.11",
