@@ -43,7 +43,7 @@
     "rimraf": "3.0.2",
     "superagent": "5.2.2",
     "supertest": "4.0.2",
-    "ts-jest": "25.3.1",
+    "ts-jest": "25.4.0",
     "ts-node-dev": "1.0.0-pre.44",
     "tslint": "6.1.1",
     "tslint-config-prettier": "1.18.0",
