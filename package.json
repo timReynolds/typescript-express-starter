@@ -38,7 +38,7 @@
     "@types/superagent": "4.1.7",
     "husky": "4.2.5",
     "jest": "25.5.4",
-    "lint-staged": "10.2.2",
+    "lint-staged": "10.2.4",
     "prettier": "2.0.5",
     "rimraf": "3.0.2",
     "superagent": "5.2.2",
