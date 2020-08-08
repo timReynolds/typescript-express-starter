@@ -35,7 +35,7 @@
     "@types/jest": "25.1.5",
     "@types/knex": "0.16.1",
     "@types/node": "13.11.0",
-    "@types/superagent": "4.1.8",
+    "@types/superagent": "4.1.9",
     "husky": "4.2.5",
     "jest": "25.5.4",
     "lint-staged": "10.2.11",
