@@ -41,7 +41,7 @@
     "lint-staged": "10.2.13",
     "prettier": "2.1.1",
     "rimraf": "3.0.2",
-    "superagent": "6.0.0",
+    "superagent": "6.1.0",
     "supertest": "4.0.2",
     "ts-jest": "25.5.1",
     "ts-node-dev": "1.0.0-pre.61",
